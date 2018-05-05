@@ -6,6 +6,8 @@ pipeline {
         bat 'echo "hello"'
         bat 'cd C:\\Users\\RANVZ\\eclipse-workspace\\Saatvik_I'
         bat 'dir'
+        sh '''cd C:\\Users\\RANVZ\\eclipse-workspace\\Saatvik_I
+dir'''
       }
     }
   }
