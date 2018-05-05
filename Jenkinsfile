@@ -6,8 +6,8 @@ pipeline {
       steps {
         bat 'echo "hello"'
         bat 'cd C:\\Users\\RANVZ\\eclipse-workspace\\Saatvik_I'
+        bat 'java -version'
         bat 'C:\\Users\\RANVZ\\eclipse-workspace\\Saatvik_I\\run_ext.bat'
-        bat 'java -v'
       }
     }
   }
